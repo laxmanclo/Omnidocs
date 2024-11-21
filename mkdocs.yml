@@ -1,0 +1,40 @@
+site_name: DocFusion
+repo_url: https://github.com/adithya-s-k/DocFusion
+repo_name: adithya-s-k/DocFusion
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/adithya-s-k/DocFusion
+
+plugins:
+  - search
+  - mkdocs-jupyter
