@@ -1,9 +1,9 @@
 # CONTRIBUTING GUIDELINES
 
 
-# Versioning Guide
+## Versioning Guide
 
-## Version Numbers
+### Version Numbers
 
 We follow [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH):
 
@@ -13,7 +13,7 @@ We follow [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH):
 
 Example: `1.0.0`, `1.1.0`, `1.1.1`
 
-## How to Release a New Version
+### How to Release a New Version
 
 1. **Check Current Version**:
 ```bash
@@ -40,9 +40,9 @@ This will automatically trigger:
 - GitHub Release creation
 - Package publishing to PyPI
 
-## Common Tasks
+### Common Tasks
 
-### Remove a Tag (if needed)
+#### Remove a Tag (if needed)
 ```bash
 # Delete local tag
 git tag -d v0.1.0
@@ -51,7 +51,7 @@ git tag -d v0.1.0
 git push origin --delete v0.1.0
 ```
 
-### Check All Tags
+#### Check All Tags
 ```bash
 # List all tags
 git tag
@@ -60,7 +60,7 @@ git tag
 git ls-remote --tags origin
 ```
 
-### Build and Publish Locally (if needed)
+#### Build and Publish Locally (if needed)
 ```bash
 # Build package
 poetry build
@@ -69,7 +69,7 @@ poetry build
 poetry publish
 ```
 
-## Version Naming Examples
+### Version Naming Examples
 
 - Bug fix: `1.0.0` → `1.0.1`
 - New feature: `1.0.1` → `1.1.0`
