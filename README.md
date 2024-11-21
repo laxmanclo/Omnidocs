@@ -22,18 +22,70 @@ Working with multiple document analysis tools can be challenging due to differen
 - **Custom Pipelines:** Easily configure and extend pipelines to meet specific use cases.
 - **Scalability:** Built to handle large-scale document processing tasks.
 
+Here’s the updated and more detailed installation section:
+
+---
+
 ## 🔧 Installation
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.11 or higher
 - `pip` package manager
+- **Optional (for GPU support)**: A compatible NVIDIA GPU with CUDA 12.1
 
-To install DocFusion, run:
+### Setting Up Your Environment
 
-```bash
-pip install docfusion
-```
+To set up your environment, you can choose one of the following methods:
+
+1. **Using `conda`**:
+   ```bash
+   conda create -n docfusion python=3.11
+   conda activate docfusion
+   ```
+
+2. **Using `venv`**:
+   ```bash
+   python3 -m venv docfusion
+   source docfusion/bin/activate  # For Linux/macOS
+   .\docfusion\Scripts\activate   # For Windows
+   ```
+
+3. **Using `poetry`**:
+   ```bash
+   poetry new docfusion
+   cd docfusion
+   poetry install
+   ```
+
+### Installing PyTorch
+
+To install PyTorch, choose one of the following options based on whether you want GPU support:
+
+- **With GPU support (CUDA 12.1)**:
+   ```bash
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+   ```
+
+- **Without GPU support**:
+   ```bash
+   pip install torch torchvision torchaudio
+   ```
+
+### Installing DocFusion
+
+Once your environment is set up and PyTorch is installed, you can install DocFusion:
+
+1. **From PyPI**:
+   ```bash
+   pip install docfusion-ai
+   ```
+
+2. **From source**:
+   If you prefer to install directly from the source, you can use the following command:
+   ```bash
+   pip install -e .
+   ```
 
 ## 🛠️ Getting Started
 
@@ -66,11 +118,34 @@ print("Tables:", tables)
 
 ```
 
-## 📚 Supported Models and Libraries
+<h3>📚 Supported Models and Libraries</h3>
 
 DocFusion integrates seamlessly with a variety of popular tools, including:
 
-(will be updated soon)
+<details>
+  <summary><h3>Layout Detection</h3></summary>
+  
+  <table border="1" cellpadding="5" cellspacing="0" style="width:100%; border-collapse: collapse;">
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>Info</th>
+              <th>Link</th>
+              <th>LICENSE</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><strong>DocLayout-YOLO</strong></td>
+              <td>Document layout detection model based on YOLOv10</td>
+              <td><a href="https://github.com/opendatalab/DocLayout-YOLO" target="_blank">DocLayout-YOLO</a></td>
+              <td><a href="https://github.com/opendatalab/DocLayout-YOLO/blob/main/LICENSE" target="_blank">AGPL-3.0</a></td>
+          </tr>
+      </tbody>
+  </table>
+
+</details>
+
 
 ## 🏗️ How It Works
 
