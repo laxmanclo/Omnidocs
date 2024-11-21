@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "docfusion"
+version = "0.1.0"
+description = ""
+authors = ["adithya-s-k <adithyaskolavi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+doclayout-yolo = {git = "https://github.com/opendatalab/DocLayout-YOLO.git"}
+huggingface-hub = "^0.26.2"
+transformers = "^4.46.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
