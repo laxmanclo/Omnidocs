@@ -1,15 +1,18 @@
 [tool.poetry]
-name = "docfusion"
+name = "docfusion-ai"
 version = "0.1.0"
 description = ""
 authors = ["adithya-s-k <adithyaskolavi@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "docfusion" }  # This tells Poetry where to find the actual code
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
-doclayout-yolo = {git = "https://github.com/opendatalab/DocLayout-YOLO.git"}
 huggingface-hub = "^0.26.2"
 transformers = "^4.46.3"
+doclayout-yolo = "^0.0.2"
 
 [tool.poetry.dev-dependencies]
 bump2version = "^1.0.1"
