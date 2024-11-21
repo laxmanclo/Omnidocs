@@ -11,6 +11,14 @@ doclayout-yolo = {git = "https://github.com/opendatalab/DocLayout-YOLO.git"}
 huggingface-hub = "^0.26.2"
 transformers = "^4.46.3"
 
+[tool.poetry.dev-dependencies]
+bump2version = "^1.0.1"
+poetry-dynamic-versioning = "^1.4.1"
+toml = "^0.10.2"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
 
 [build-system]
 requires = ["poetry-core"]
