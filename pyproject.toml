@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "docfusion-ai"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["adithya-s-k <adithyaskolavi@gmail.com>"]
 readme = "README.md"
