@@ -122,29 +122,86 @@ print("Tables:", tables)
 
 DocFusion integrates seamlessly with a variety of popular tools, including:
 
+- ✅ : working and tested
+- ⏳ : planned/in-progress support
+- ❌ : no support
+
 <details>
   <summary><h3>Layout Detection</h3></summary>
   
-  <table border="1" cellpadding="5" cellspacing="0" style="width:100%; border-collapse: collapse;">
+   <table border="1" cellpadding="5" cellspacing="0" style="width:100%; border-collapse: collapse;">
       <thead>
-          <tr>
-              <th>Name</th>
-              <th>Info</th>
-              <th>Link</th>
-              <th>LICENSE</th>
-          </tr>
+         <tr>
+               <th>Detection Model</th>
+               <th>Source</th>
+               <th>License</th>
+               <th>CPU</th>
+               <th>GPU</th>
+               <th>Info</th>
+         </tr>
       </thead>
       <tbody>
-          <tr>
-              <td><strong>DocLayout-YOLO</strong></td>
-              <td>Document layout detection model based on YOLOv10</td>
-              <td><a href="https://github.com/opendatalab/DocLayout-YOLO" target="_blank">DocLayout-YOLO</a></td>
-              <td><a href="https://github.com/opendatalab/DocLayout-YOLO/blob/main/LICENSE" target="_blank">AGPL-3.0</a></td>
-          </tr>
+         <tr>
+               <td><strong>✅DocLayout YOLO</strong></td>
+               <td><a href="https://github.com/opendatalab/DocLayout-YOLO" target="_blank">GitHub - DocLayout-YOLO</a></td>
+               <td><a href="https://github.com/opendatalab/DocLayout-YOLO/blob/main/LICENSE" target="_blank">AGPL-3.0</a></td>
+               <td>⏳</td>
+               <td>✅</td>
+               <td>A robust layout detection model based on YOLO-v10, designed for diverse document types.</td>
+         </tr>
+         <tr>
+               <td><strong>✅PPStructure (Paddle OCR)</strong></td>
+               <td><a href="https://github.com/PaddlePaddle/PaddleOCR" target="_blank">GitHub - PaddleOCR</a></td>
+               <td><a href="https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/LICENSE" target="_blank">Apache 2.0</a></td>
+               <td>✅</td>
+               <td>✅</td>
+               <td>An OCR tool that supports multiple languages and provides layout detection capabilities.</td>
+         </tr>
+         <tr>
+               <td><strong>✅RT DETR (Docling)</strong></td>
+               <td><a href="https://github.com/topics/rt-detr" target="_blank">GitHub - RT-DETR</a></td>
+               <td><a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a></td>
+               <td>⏳</td>
+               <td>✅</td>
+               <td>Implementation of RT-DETR, a real-time detection transformer focusing on object detection tasks.</td>
+         </tr>
+         <tr>
+               <td><strong>✅Florence-2-DocLayNet-Fixed</strong></td>
+               <td><a href="https://huggingface.co/yifeihu/Florence-2-DocLayNet-Fixed" target="_blank">Hugging Face - Florence-2-DocLayNet-Fixed</a></td>
+               <td><a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a></td>
+               <td>❌</td>
+               <td>✅</td>
+               <td>Fine-tuned model for document layout analysis, improving bounding box accuracy in document images.</td>
+         </tr>
+         <tr>
+               <td><strong>✅Surya Layout</strong></td>
+               <td><a href="https://github.com/VikParuchuri/surya" target="_blank">GitHub - Surya</a></td>
+               <td><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0-or-later</a></td>
+               <td>✅</td>
+               <td>✅</td>
+               <td>OCR and layout analysis tool supporting 90+ languages, including reading order and table recognition.</td>
+         </tr>
+         <tr>
+               <td><strong>⏳Layout LM V3</strong></td>
+               <td><a href="https://huggingface.co/microsoft/layoutlmv3-base" target="_blank">Hugging Face - LayoutLMv3</a></td>
+               <td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></td>
+               <td>⏳</td>
+               <td>⏳</td>
+               <td>A pre-trained multimodal Transformer for Document AI, effective for various document understanding tasks.</td>
+         </tr>
+         <tr>
+               <td><strong>⏳Fast / Faster R CNN / MR CNN</strong></td>
+               <td><a href="https://github.com/rbgirshick/py-faster-rcnn" target="_blank">GitHub - Faster R-CNN</a></td>
+               <td><a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a></td>
+               <td>⏳</td>
+               <td>⏳</td>
+               <td>A library implementing the Faster R-CNN architecture for object detection, widely used in layout tasks.</td>
+         </tr>
       </tbody>
-  </table>
+   </table>
 
 </details>
+
 
 
 ## 🏗️ How It Works
