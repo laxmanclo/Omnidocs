@@ -92,30 +92,7 @@ Once your environment is set up and PyTorch is installed, you can install DocFus
 Here's a quick example to demonstrate the power of **DocFusion**:
 
 ```python
-from docfusion import DocFusion
-
-# Initialize DocFusion
-docfusion = DocFusion()
-
-# Load a document
-doc = docfusion.load_document("sample.pdf")
-# Load a images
-# doc = docfusion.load_image("sample.png")
-
-# Detect layout
-layout = docfusion.detect_layout(doc)
-
-# Perform OCR
-text = docfusion.extract_text(doc)
-
-# Extract tables
-tables = docfusion.extract_tables(doc)
-
-# Print results
-print("Layout:", layout)
-print("Text:", text)
-print("Tables:", tables)
-
+tutorial coming soon
 ```
 
 <h3>📚 Supported Models and Libraries</h3>
