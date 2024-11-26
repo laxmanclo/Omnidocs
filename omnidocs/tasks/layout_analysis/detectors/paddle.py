@@ -6,10 +6,10 @@ import cv2
 import numpy as np
 from huggingface_hub import snapshot_download
 from PIL import Image , ImageDraw
-from docfusion.utils.logging import get_logger, log_execution_time
-from docfusion.tasks.layout_analysis.base import BaseLayoutDetector, BaseLayoutMapper
-from docfusion.tasks.layout_analysis.enums import LayoutLabel
-from docfusion.tasks.layout_analysis.models import LayoutBox, LayoutOutput
+from omnidocs.utils.logging import get_logger, log_execution_time
+from omnidocs.tasks.layout_analysis.base import BaseLayoutDetector, BaseLayoutMapper
+from omnidocs.tasks.layout_analysis.enums import LayoutLabel
+from omnidocs.tasks.layout_analysis.models import LayoutBox, LayoutOutput
 
 logger = get_logger(__name__)
 

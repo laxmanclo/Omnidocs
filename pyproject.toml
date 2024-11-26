@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "docfusion-ai"
+name = "omnidocs"
 version = "0.1.1"
 description = ""
 authors = ["adithya-s-k <adithyaskolavi@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "docfusion" }  # This tells Poetry where to find the actual code
+    { include = "omnidocs" }  # This tells Poetry where to find the actual code
 ]
 
 [tool.poetry.dependencies]

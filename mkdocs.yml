@@ -1,6 +1,6 @@
-site_name: DocFusion
-repo_url: https://github.com/adithya-s-k/DocFusion
-repo_name: adithya-s-k/DocFusion
+site_name: OmniDocs
+repo_url: https://github.com/adithya-s-k/OmniDocs
+repo_name: adithya-s-k/OmniDocs
 edit_uri: edit/main/docs/
 
 theme:
@@ -33,7 +33,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/adithya-s-k/DocFusion
+      link: https://github.com/adithya-s-k/OmniDocs
 
 plugins:
   - search

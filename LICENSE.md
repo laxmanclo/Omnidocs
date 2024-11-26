@@ -1,10 +1,10 @@
 # **License**
 
-DocFusion incorporates multiple models, libraries, and components, each with its own licensing terms. To ensure full compliance and proper attribution, we will follow the respective licenses for each included component.
+OmniDocs incorporates multiple models, libraries, and components, each with its own licensing terms. To ensure full compliance and proper attribution, we will follow the respective licenses for each included component.
 
 ## **License Compliance**
 
-This project adheres to the licenses associated with the libraries, models, and components it integrates. Please check below for the specific licenses used in DocFusion:
+This project adheres to the licenses associated with the libraries, models, and components it integrates. Please check below for the specific licenses used in OmniDocs:
 
 - **Library/Component 1** - License type (e.g., MIT, GPL-3.0)
 - **Library/Component 2** - License type (e.g., Apache 2.0)
@@ -22,6 +22,6 @@ You can reach me at:
 
 I will ensure that any necessary changes are made promptly, in accordance with your query, and provide proper attribution or license updates.
 
-## **Usage of DocFusion**
+## **Usage of OmniDocs**
 
 By using this project, you acknowledge that you have reviewed and agreed to the terms and conditions of all applicable licenses.

@@ -7,9 +7,9 @@ import cv2
 import torch
 from PIL import Image
 import numpy as np
-from docfusion.tasks.layout_analysis.enums import LayoutLabel
-from docfusion.tasks.layout_analysis.models import LayoutBox, LayoutOutput
-from docfusion.utils.logging import get_logger
+from omnidocs.tasks.layout_analysis.enums import LayoutLabel
+from omnidocs.tasks.layout_analysis.models import LayoutBox, LayoutOutput
+from omnidocs.utils.logging import get_logger
 from pdf2image import convert_from_path
 
 

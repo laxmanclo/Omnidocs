@@ -7,7 +7,7 @@ def get_version():
     """Get version from installed package metadata or fallback to default."""
     try:
         # Try to get version from package metadata
-        version = importlib.metadata.version("docfusion")
+        version = importlib.metadata.version("omnidocs")
         return version
     except importlib.metadata.PackageNotFoundError:
         # If package is not installed (e.g., during development)

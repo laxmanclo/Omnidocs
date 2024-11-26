@@ -1,12 +1,12 @@
-# DocFusion
+# OmniDocs
 
 ![DodFusion Banner](./assets/docfusion_banner.png)
 
-**DocFusion** is a Python library for deep document visual understanding. It provides a unified interface for a suite of tasks like layout detection, OCR, table extraction, reading order detection, and more. By abstracting the complexities of setting up pipelines across different libraries and models, **DocFusion** makes it easier than ever to integrate and optimize document analysis workflows.
+**OmniDocs** is a Python library for deep document visual understanding. It provides a unified interface for a suite of tasks like layout detection, OCR, table extraction, reading order detection, and more. By abstracting the complexities of setting up pipelines across different libraries and models, **OmniDocs** makes it easier than ever to integrate and optimize document analysis workflows.
 
-## 🚀 Why DocFusion?
+## 🚀 Why OmniDocs?
 
-Working with multiple document analysis tools can be challenging due to differences in APIs, outputs, and data formats. **DocFusion** addresses these pain points by:
+Working with multiple document analysis tools can be challenging due to differences in APIs, outputs, and data formats. **OmniDocs** addresses these pain points by:
 
 - **Unifying APIs:** A consistent interface for all tasks, irrespective of the underlying library or model.
 - **Pipeline Optimization:** Pre-built, customizable pipelines for end-to-end document processing.
@@ -40,21 +40,21 @@ To set up your environment, you can choose one of the following methods:
 
 1. **Using `conda`**:
    ```bash
-   conda create -n docfusion python=3.11
-   conda activate docfusion
+   conda create -n omnidocs python=3.11
+   conda activate omnidocs
    ```
 
 2. **Using `venv`**:
    ```bash
-   python3 -m venv docfusion
-   source docfusion/bin/activate  # For Linux/macOS
-   .\docfusion\Scripts\activate   # For Windows
+   python3 -m venv omnidocs
+   source omnidocs/bin/activate  # For Linux/macOS
+   .\omnidocs\Scripts\activate   # For Windows
    ```
 
 3. **Using `poetry`**:
    ```bash
-   poetry new docfusion
-   cd docfusion
+   poetry new omnidocs
+   cd omnidocs
    poetry install
    ```
 
@@ -72,13 +72,13 @@ To install PyTorch, choose one of the following options based on whether you wan
    pip install torch torchvision torchaudio
    ```
 
-### Installing DocFusion
+### Installing OmniDocs
 
-Once your environment is set up and PyTorch is installed, you can install DocFusion:
+Once your environment is set up and PyTorch is installed, you can install OmniDocs:
 
 1. **From PyPI**:
    ```bash
-   pip install docfusion-ai
+   pip install omnidocs-ai
    ```
 
 2. **From source**:
@@ -89,7 +89,7 @@ Once your environment is set up and PyTorch is installed, you can install DocFus
 
 ## 🛠️ Getting Started
 
-Here's a quick example to demonstrate the power of **DocFusion**:
+Here's a quick example to demonstrate the power of **OmniDocs**:
 
 ```python
 tutorial coming soon
@@ -97,7 +97,7 @@ tutorial coming soon
 
 <h3>📚 Supported Models and Libraries</h3>
 
-DocFusion integrates seamlessly with a variety of popular tools, including:
+OmniDocs integrates seamlessly with a variety of popular tools, including:
 
 - ✅ : working and tested
 - ⏳ : planned/in-progress support
@@ -183,7 +183,7 @@ DocFusion integrates seamlessly with a variety of popular tools, including:
 
 ## 🏗️ How It Works
 
-**DocFusion** organizes document processing tasks into modular components. Each component corresponds to a specific task and offers:
+**OmniDocs** organizes document processing tasks into modular components. Each component corresponds to a specific task and offers:
 
 1. **A Unified Interface:** Consistent input and output formats.
 2. **Model Independence:** Switch between libraries or models effortlessly.
@@ -198,7 +198,7 @@ DocFusion integrates seamlessly with a variety of popular tools, including:
 
 ## 🤝 Contributing
 
-We welcome contributions to **DocFusion**! Here's how you can help:
+We welcome contributions to **OmniDocs**! Here's how you can help:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -212,11 +212,11 @@ This project is licensed under multiple licenses, depending on the models and li
 
 ## 🌟 Support the Project
 
-If you find **DocFusion** helpful, please give us a ⭐ on GitHub and share it with others in the community.
+If you find **OmniDocs** helpful, please give us a ⭐ on GitHub and share it with others in the community.
 
 ## 🗨️ Join the Community
 
 For discussions, questions, or feedback:
 
-- **Issues:** Report bugs or suggest features [here](https://github.com/adithya-s-k/DocFusion/issues).
+- **Issues:** Report bugs or suggest features [here](https://github.com/adithya-s-k/OmniDocs/issues).
 - **Email:** Reach out at adithyaskolavi@gmail.com

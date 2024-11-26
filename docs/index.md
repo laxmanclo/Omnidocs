@@ -1,1 +1,1 @@
-# DocFusion
+# OmniDocs
