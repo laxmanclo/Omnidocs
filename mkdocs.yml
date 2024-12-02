@@ -5,8 +5,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  logo: https://raw.githubusercontent.com/adithya-s-k/Omnidocs/refs/heads/main/assets/logo.png
-  favicon: https://raw.githubusercontent.com/adithya-s-k/Omnidocs/refs/heads/main/assets/logo.png
+  logo: ./assets/logo.png
+  favicon: ./assets/logo.png
   palette:
     scheme: slate
     primary: teal
