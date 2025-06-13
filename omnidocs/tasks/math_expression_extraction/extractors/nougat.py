@@ -1,13 +1,13 @@
 import sys
 import logging
 from typing import Union, List, Dict, Any, Optional, Tuple
-from pathlib import Path
 import torch
 import cv2
 import numpy as np
 from PIL import Image
 from omnidocs.utils.logging import get_logger, log_execution_time
 from omnidocs.tasks.math_expression_extraction.base import BaseLatexExtractor, BaseLatexMapper, LatexOutput
+from pathlib import Path
 
 logger = get_logger(__name__)
 

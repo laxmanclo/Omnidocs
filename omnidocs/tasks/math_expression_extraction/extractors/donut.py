@@ -1,6 +1,6 @@
 import sys
 import logging
-from typing import Union, List, Dict, Any, Optional, Tuple
+from typing import Union, List, Dict, Any, Optional, 
 from pathlib import Path
 import cv2
 import torch
